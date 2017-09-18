@@ -1,0 +1,182 @@
+{
+  "results" : [ {
+    "cell" : "625-958-728",
+    "dob" : "1970-12-21 20:08:46",
+    "email" : "carlos.ferrer@example.com",
+    "gender" : "male",
+    "id" : {
+      "name" : "DNI",
+      "value" : "13024777-L"
+    },
+    "location" : {
+      "city" : "madrid",
+      "postcode" : 73383,
+      "state" : "comunidad valenciana",
+      "street" : "4218 avenida de castilla"
+    },
+    "login" : {
+      "md5" : "2383631b4d50701ba24f3524790fcdc2",
+      "password" : "poland",
+      "salt" : "0B56z2EB",
+      "sha1" : "8a1a31bb8ee4ec2ddc518d756dec5a3d05cc600b",
+      "sha256" : "e1b5350713e9bd1f8395410c16961e6ef298f2836e1bcaee4c7b1a38c6ccc372",
+      "username" : "bigbear186"
+    },
+    "name" : {
+      "first" : "carlos",
+      "last" : "ferrer",
+      "title" : "mr"
+    },
+    "nat" : "ES",
+    "phone" : "910-165-965",
+    "picture" : {
+      "large" : "https://randomuser.me/api/portraits/men/51.jpg",
+      "medium" : "https://randomuser.me/api/portraits/med/men/51.jpg",
+      "thumbnail" : "https://randomuser.me/api/portraits/thumb/men/51.jpg"
+    },
+    "registered" : "2014-04-05 14:35:08"
+  }, {
+    "cell" : "(705)-141-8457",
+    "dob" : "1946-07-10 18:20:52",
+    "email" : "marceau.adam@example.com",
+    "gender" : "male",
+    "id" : {
+      "name" : "AVS",
+      "value" : "756.YLOO.RMBC.34"
+    },
+    "location" : {
+      "city" : "colombier vd",
+      "postcode" : 6789,
+      "state" : "zürich",
+      "street" : "5525 rue abel-gance"
+    },
+    "login" : {
+      "md5" : "85adf2df909d2b469e794413f93ab608",
+      "password" : "ncc1701d",
+      "salt" : "2IzbV432",
+      "sha1" : "9da1577d74bcc0e6d9a2a982b369acc9049c8d69",
+      "sha256" : "b2d8620e8c99cc71e26294aa7959984183a791cab4f196e2dea18813d2b2357d",
+      "username" : "blackdog601"
+    },
+    "name" : {
+      "first" : "marceau",
+      "last" : "adam",
+      "title" : "monsieur"
+    },
+    "nat" : "CH",
+    "phone" : "(821)-281-0162",
+    "picture" : {
+      "large" : "https://randomuser.me/api/portraits/men/18.jpg",
+      "medium" : "https://randomuser.me/api/portraits/med/men/18.jpg",
+      "thumbnail" : "https://randomuser.me/api/portraits/thumb/men/18.jpg"
+    },
+    "registered" : "2006-10-24 23:20:57"
+  }, {
+    "cell" : "(599)-055-7234",
+    "dob" : "1946-09-14 11:45:29",
+    "email" : "hazel.williams@example.com",
+    "gender" : "female",
+    "id" : {
+      "name" : ""
+    },
+    "location" : {
+      "city" : "whangarei",
+      "postcode" : 61010,
+      "state" : "otago",
+      "street" : "1235 st aubyn street"
+    },
+    "login" : {
+      "md5" : "b9c49dabba95ba55ecf7ac6dac7154a5",
+      "password" : "brooke",
+      "salt" : "i2deOlmY",
+      "sha1" : "b78a3aaa030ee7088b6f59a5a841724b04dac710",
+      "sha256" : "a1be6ba91d958c2f58f459c7f460a2db1b8fcf850a35db11af95a63e7107e186",
+      "username" : "lazylion466"
+    },
+    "name" : {
+      "first" : "hazel",
+      "last" : "williams",
+      "title" : "mrs"
+    },
+    "nat" : "NZ",
+    "phone" : "(293)-937-9870",
+    "picture" : {
+      "large" : "https://randomuser.me/api/portraits/women/3.jpg",
+      "medium" : "https://randomuser.me/api/portraits/med/women/3.jpg",
+      "thumbnail" : "https://randomuser.me/api/portraits/thumb/women/3.jpg"
+    },
+    "registered" : "2008-05-10 13:54:15"
+  }, {
+    "cell" : "06-30-20-73-61",
+    "dob" : "1994-01-13 05:48:47",
+    "email" : "charles.berger@example.com",
+    "gender" : "male",
+    "id" : {
+      "name" : "INSEE",
+      "value" : "194062614696 84"
+    },
+    "location" : {
+      "city" : "metz",
+      "postcode" : 17103,
+      "state" : "loir-et-cher",
+      "street" : "3635 rue de cuire"
+    },
+    "login" : {
+      "md5" : "c17f63e35c853db9ed9265e05b14a06a",
+      "password" : "smokin",
+      "salt" : "ohriEfVD",
+      "sha1" : "619e7904b26b6fc68853f35b7060e727d29048c9",
+      "sha256" : "7105be84e848c1261659adc92123628218418df0b530867465f5152a0cd810f8",
+      "username" : "whitemeercat849"
+    },
+    "name" : {
+      "first" : "charles",
+      "last" : "berger",
+      "title" : "mr"
+    },
+    "nat" : "FR",
+    "phone" : "02-40-07-20-86",
+    "picture" : {
+      "large" : "https://randomuser.me/api/portraits/men/6.jpg",
+      "medium" : "https://randomuser.me/api/portraits/med/men/6.jpg",
+      "thumbnail" : "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+    },
+    "registered" : "2014-01-21 03:05:31"
+  }, {
+    "cell" : "0466-338-982",
+    "dob" : "1969-08-18 21:21:48",
+    "email" : "jose.ray@example.com",
+    "gender" : "male",
+    "id" : {
+      "name" : "TFN",
+      "value" : "354158568"
+    },
+    "location" : {
+      "city" : "sunshine coast",
+      "postcode" : 5019,
+      "state" : "queensland",
+      "street" : "2469 homestead rd"
+    },
+    "login" : {
+      "md5" : "9302e6e59a59ad2085e29cdb6c047fde",
+      "password" : "designer",
+      "salt" : "l781bsKp",
+      "sha1" : "96bede72b8fda8214a592df2975ff9a51b13242e",
+      "sha256" : "ae6010977ace23f530b96e865a039e2345e2672b2bd298efc19a1b35972690df",
+      "username" : "ticklishfish387"
+    },
+    "name" : {
+      "first" : "jose",
+      "last" : "ray",
+      "title" : "mr"
+    },
+    "nat" : "AU",
+    "phone" : "01-0786-2339",
+    "picture" : {
+      "large" : "https://randomuser.me/api/portraits/men/93.jpg",
+      "medium" : "https://randomuser.me/api/portraits/med/men/93.jpg",
+      "thumbnail" : "https://randomuser.me/api/portraits/thumb/men/93.jpg"
+    },
+    "registered" : "2006-02-23 10:44:50"
+  } ]
+}

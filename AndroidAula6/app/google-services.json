@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "280478402452",
+    "firebase_url": "https://androidaula6.firebaseio.com",
+    "project_id": "androidaula6",
+    "storage_bucket": "androidaula6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280478402452:android:c73a10e63cda2a00",
+        "android_client_info": {
+          "package_name": "com.target.androidaula6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280478402452-12n7vq2ne63tl28gqjr8euigomvsvsi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv2jYV3l11vwJorhAM2jbk2UZtWdzwIQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
