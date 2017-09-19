@@ -1,7 +1,11 @@
 package com.target.androidaula6;
 
+import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -9,6 +13,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.gson.Gson;
 import com.target.androidaula6.json.User;
 
 import java.util.ArrayList;
@@ -20,8 +25,11 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference  databaseReference;
 
     List<User> users = new ArrayList<>();
+    List<Bitmap> bitmaps = new ArrayList<>();
+
     ListView listView;
     CustomListAdapter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,8 +42,19 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listview);
         setUsers();
 
-        adapter =  new CustomListAdapter(users, getBaseContext());
+        adapter =  new CustomListAdapter(users, bitmaps, getBaseContext());
         listView.setAdapter(adapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getBaseContext(), Main2Activity.class);
+
+                String json = new Gson().toJson(users.get(position));
+                intent.putExtra("user_tag", json);
+
+                startActivity(intent);
+            }
+        });
     }
 
     private void setUsers(){
@@ -51,6 +70,21 @@ public class MainActivity extends AppCompatActivity {
                    User user = ds.getValue(User.class);
 
                     users.add(user);
+
+                    WebGetImageAsync webGetImageAsync = new WebGetImageAsync(getBaseContext(),
+                                                        user.getPicture().getLarge(),
+                                                        new WebGetImageAsync.GetImageListener() {
+                        @Override
+                        public void GetImage(Bitmap bitmap) {
+                            bitmaps.add(bitmap);
+
+                            if(bitmaps.size() == users.size()) {
+                                adapter.notifyDataSetChanged();
+                            }
+                        }
+                    });
+
+                    webGetImageAsync.execute();
                 }
                 //Pega todos os dados de uma vez sem o uso do FOR
                 //DataSet dataSet = dataSnapshot.getValue(DataSet.class);
@@ -59,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //listView.setAdapter(new CustomListAdapter(users, getBaseContext()));
 
-                adapter.notifyDataSetChanged();
+               //adapter.notifyDataSetChanged();
 
             }
 
